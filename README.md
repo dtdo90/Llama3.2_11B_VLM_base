@@ -5,6 +5,8 @@ This repository demonstrates the process of fine-tuning **LLAMA 3.2-11B VLM** on
 ### Training Details
 - Training Framework: The training uses the SFTTrainer from the trl (Transformer Reinforcement Learning) library.
 - Parameter Optimization: QLoRA (Low-Rank Adaptation) is applied to reduce the number of parameters and improve efficiency during the fine-tuning process.
+- Training duration: It takes around 2 hours to train 3 epochs on A6000 (48GB) GPU. 
+
 
 
 ### Example
